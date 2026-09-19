@@ -10,9 +10,17 @@ This is my portfolio website. I use it to share things I've worked on, with phot
 
 Each project has its own page so I can show more than just a finished photo.
 
-## What I used
+## Technical skills
 
-The site uses HTML, CSS, and JavaScript, including jQuery. I started with the **Miniport template from HTML5 UP** and adapted it for my projects.
+- **HTML:** building the homepage and separate project pages, linking pages, and adding images and forms.
+- **CSS:** styling text, colours, spacing, buttons, and photo galleries.
+- **Responsive layouts:** working with the template's Flexbox layout and screen-size breakpoints.
+- **JavaScript and jQuery:** using the template's navigation, smooth scrolling, and page-load effects.
+- **Template customization:** adapting the Miniport template from HTML5 UP for my own content.
+- **Website organization:** keeping page content, images, styles, and scripts in separate files and folders.
+- **GitHub:** storing and sharing the website code.
+
+The responsive layout and JavaScript features build on the original template.
 
 ## Opening the website
 
