@@ -1,48 +1,44 @@
 # My Personal Projects
 
-This is my portfolio website. I use it to share things I've worked on, with photos and a bit of explanation about how each project came together.
+This portfolio website brings together my engineering and design projects. Each project page includes photos, build details, and an explanation of the work involved.
 
-## What's on it
+## Featured projects
 
-- **Electric longboard:** a belt-drive build with details about the motor, electronics, CAD work, and assembly.
-- **Tennis ball launcher:** a two-wheel launcher project with build details and photos.
-- **Naura:** a battery business concept from our SHAD design project, with a link to its own website.
-
-Each project has its own page so I can show more than just a finished photo.
+- **Electric longboard:** a belt-drive build covering the motor, electronics, CAD work, and assembly.
+- **Tennis ball launcher:** a two-wheel launcher with information about its design, components, and construction.
+- **Naura:** a battery business concept developed for our SHAD design project, with a link to its website.
 
 ## Technical skills
 
-- **HTML:** building the homepage and separate project pages, linking pages, and adding images and forms.
-- **CSS:** styling text, colours, spacing, buttons, and photo galleries.
-- **Responsive layouts:** working with the template's Flexbox layout and screen-size breakpoints.
+- **HTML:** page structure, navigation, images, and form elements.
+- **CSS:** typography, colours, spacing, buttons, and photo galleries.
+- **Responsive design:** adapting the template's Flexbox layout and screen-size breakpoints.
 - **JavaScript and jQuery:** using the template's navigation, smooth scrolling, and page-load effects.
-- **Template customization:** adapting the Miniport template from HTML5 UP for my own content.
-- **Website organization:** keeping page content, images, styles, and scripts in separate files and folders.
-- **GitHub:** storing and sharing the website code.
+- **GitHub:** storing and sharing the source code.
 
-The responsive layout and JavaScript features build on the original template.
+The site is adapted from the Miniport template by HTML5 UP. Its responsive layout and JavaScript features build on the original template.
 
-## Opening the website
+## Local setup
 
-1. Click the green **Code** button on GitHub and choose **Download ZIP**.
+1. Select **Code** on GitHub, then **Download ZIP**.
 2. Extract the folder.
-3. Open `index.html` in your browser.
+3. Open `index.html` in a browser.
 
-Keep the folders together so the images and styles load. You don't need Python, an API key, or any packages to open it.
+Keep the folder structure unchanged so images and styles load correctly. No additional packages are required.
 
-## Files
+## Project files
 
-- `index.html` is the homepage.
-- `longboard.html`, `tennis.html`, and `naura.html` are the project pages.
-- `images/` contains the project photos.
-- `assets/` contains the styles, scripts, and fonts.
+- `index.html`: homepage and project links.
+- `longboard.html`, `tennis.html`, and `naura.html`: individual project pages.
+- `images/`: project photos.
+- `assets/`: stylesheets, scripts, and fonts.
 
-## Still working on
+## Current limitations
 
-Some cards on the homepage still have placeholder text and images. The contact form is also just the layout right now; it isn't connected to anything that sends messages.
+Some homepage cards still contain placeholder text and images. The contact form has a visual layout but is not connected to a service for sending messages.
 
-I'd like to clean those up and keep adding photos and updates as I work on more projects.
+I plan to replace the remaining placeholders and add more photos and project updates.
 
 ## Credits
 
-The original design is [Miniport by HTML5 UP](https://html5up.net/miniport). It also uses Font Awesome and jQuery. The original template notes and license are in `README.txt` and `LICENSE.txt`.
+The original design is [Miniport by HTML5 UP](https://html5up.net/miniport). The site also uses Font Awesome and jQuery. The original template notes and license are included in `README.txt` and `LICENSE.txt`.
