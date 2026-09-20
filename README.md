@@ -1,44 +1,24 @@
-# My Personal Projects
+# Simon Kang — Engineering Portfolio
 
-This portfolio website brings together my engineering and design projects. Each project page includes photos, build details, and an explanation of the work involved.
+A responsive personal portfolio featuring three engineering and product projects:
 
-## Featured projects
+- **Electric Longboard** — CAD, electrical integration, mechanical fabrication, and testing.
+- **Naura** — battery research, product strategy, brand design, and web development.
+- **Tennis Ball Launcher** — an in-progress mechanical prototype using dual motors and custom printed supports.
 
-- **Electric longboard:** a belt-drive build covering the motor, electronics, CAD work, and assembly.
-- **Tennis ball launcher:** a two-wheel launcher with information about its design, components, and construction.
-- **Naura:** a battery business concept developed for our SHAD design project, with a link to its website.
+## Structure
 
-## Technical skills
+- `index.html` — projects, profile, working approach, and contact links.
+- `longboard.html`, `naura.html`, `tennis.html` — detailed project case studies.
+- `assets/css/portfolio.css` — the shared responsive design system.
+- `assets/js/portfolio.js` — progressive reveal effects and automatic copyright year.
+- `images/` — original project photography, video, CAD, and brand assets.
+- `old-website/` — the complete previous version, preserved as a working static site when published.
 
-- **HTML:** page structure, navigation, images, and form elements.
-- **CSS:** typography, colours, spacing, buttons, and photo galleries.
-- **Responsive design:** adapting the template's Flexbox layout and screen-size breakpoints.
-- **JavaScript and jQuery:** using the template's navigation, smooth scrolling, and page-load effects.
-- **GitHub:** storing and sharing the source code.
+## Run locally
 
-The site is adapted from the Miniport template by HTML5 UP. Its responsive layout and JavaScript features build on the original template.
+The site has no build step or package dependencies. Open `index.html` directly, or serve the folder with any static HTTP server.
 
-## Local setup
+## Design
 
-1. Select **Code** on GitHub, then **Download ZIP**.
-2. Extract the folder.
-3. Open `index.html` in a browser.
-
-Keep the folder structure unchanged so images and styles load correctly. No additional packages are required.
-
-## Project files
-
-- `index.html`: homepage and project links.
-- `longboard.html`, `tennis.html`, and `naura.html`: individual project pages.
-- `images/`: project photos.
-- `assets/`: stylesheets, scripts, and fonts.
-
-## Current limitations
-
-Some homepage cards still contain placeholder text and images. The contact form has a visual layout but is not connected to a service for sending messages.
-
-I plan to replace the remaining placeholders and add more photos and project updates.
-
-## Credits
-
-The original design is [Miniport by HTML5 UP](https://html5up.net/miniport). The site also uses Font Awesome and jQuery. The original template notes and license are included in `README.txt` and `LICENSE.txt`.
+The site uses an original editorial portfolio system inspired by the spacious layout, floating navigation, strong typography, and image-led case studies of the supplied reference. It is fully responsive and includes reduced-motion support, semantic page structure, descriptive image text, and keyboard-accessible navigation.

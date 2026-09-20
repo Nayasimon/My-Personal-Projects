@@ -1,257 +1,78 @@
-<!DOCTYPE HTML>
-<!--
-  Project Detail — Electric Longboard
-  Based on Miniport by HTML5 UP
--->
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>Electric Longboard — Project Detail</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-   <style>
-    /* Center and size the video nicely under the gallery */
-    #gallery .video-wrap {
-      max-width: 900px;
-      margin: 2rem auto 0;
-    }
-    #gallery .video-wrap video {
-      width: 100%;
-      height: auto;
-      display: block;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Simon Kang's custom electric longboard: CAD, drivetrain, electronics, fabrication, and testing.">
+  <meta name="theme-color" content="#f7f6f1">
+  <title>Electric Longboard — Simon Kang</title>
+  <link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
 <body>
-
-  <!-- Nav (links route back to sections on index.html) -->
-  <nav id="nav">
-    <ul class="container">
-      <li><a href="index.html#top">Home</a></li>
-      <li><a href="index.html#portfolio">Projects</a></li>
-      <li><a href="index.html#contact">Contact</a></li>
-    </ul>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html#projects" aria-current="page">Projects</a>
+    <a href="index.html#about">About</a>
+    <a class="nav-contact" href="mailto:s85kang@uwaterloo.ca">Contact</a>
   </nav>
 
-  <!-- Hero / Intro -->
-  <article class="wrapper style1" id="top">
-    <div class="container">
-      <header>
-        <h1>Electric Longboard</h1>
-        <p>Custom belt-drive build — design, wiring, and enclosure fabrication.</p>
-      </header>
-      <div class="row aln-middle">
-        <div class="col-5 col-12-medium">
-          <span class="image fit"><img src="images/Front.jpg" alt="Electric longboard front view" /></span>
-        </div>
-        <div class="col-7 col-12-medium">
-          <p>
-            I designed and assembled a DIY longboard: 10S2P 36V battery, ESC setup,
-            1800W motor, and a custom enclosure modeled in CAD. The goal was a
-            reliable daily cruiser to and from my school.
-          </p>
-          <ul class="actions">
-            <li><a href="index.html#portfolio" class="button">← Back to Portfolio</a></li>
-          </ul>
-        </div>
+  <main id="main">
+    <header class="detail-hero shell">
+      <div class="detail-heading" data-reveal>
+        <div><p class="kicker">Project / 01</p><h1>Electric<br>Longboard</h1></div>
+        <div class="detail-intro"><p>A custom belt-drive cruiser designed and assembled for reliable daily travel to and from school.</p></div>
       </div>
-    </div>
-  </article>
-
-  <!-- Specs -->
-<article class="wrapper style3">
-  <div class="container">
-    <header>
-      <h2>Build Specs</h2>
-      <p>Core components & configuration</p>
-    </header>
-    <div class="row">
-      <div class="col-4 col-12-small">
-        <article class="box style2">
-          <h3>Drive</h3>
-          <p>
-            Single drive belt system<br>
-            5M gear, 270 mm belts<br>
-            Compatible wheels: 83 mm / 90 mm / 97 mm
-          </p>
-        </article>
-      </div>
-      <div class="col-4 col-12-small">
-        <article class="box style2">
-          <h3>Motor</h3>
-          <p>
-            1800 W brushless hub motor<br>
-            Optimized for high torque & cruising stability
-          </p>
-        </article>
-      </div>
-      <div class="col-4 col-12-small">
-        <article class="box style2">
-          <h3>Battery & Electronics</h3>
-          <p>
-            36 V 25 Ah 21700 Lithium Pack (10S2P)<br>
-            Integrated BMS + charger<br>
-            Single drive ESC + remote controller
-          </p>
-        </article>
-      </div>
-    </div>
-  </div>
-</article>
-
-    <!-- Process -->
-<article class="wrapper style2">
-  <div class="container">
-    <header>
-      <h2>Process</h2>
-      <p>From CAD to first ride</p>
-    </header>
-    <div class="row">
-
-      <!-- Design & CAD -->
-      <div class="col-6 col-12-small">
-        <article class="box style1">
-          <h3>Design & CAD</h3>
-          <p>
-            Modeled the enclosure to fit the curvature of the longboard.
-            Designed using a circular sector geometry to optimize aerodynamics.
-            Added raised walls to snug battery in place.
-          </p>
-          <span class="image featured">
-            <img src="images/cad.png" alt="CAD design of enclosure" />
-          </span>
-        </article>
-      </div>
-
-      <!-- Mounting Motor -->
-      <div class="col-6 col-12-small">
-        <article class="box style1">
-          <h3>Mounting Motor</h3>
-          <p>
-            Installed the 1800W hub motor. Drilled holes in the wheel to safely connect the wheel with the mount.
-            Connected the mount with the motor using a single drive belt system.
-          </p>
-          <span class="image featured">
-            <img src="images/mount.jpg" alt="Motor mounting process" />
-          </span>
-        </article>
-      </div>
-
-    </div>
-  </div>
-</article>
-
-<!-- Features -->
-<article class="wrapper style3">
-  <div class="container">
-    <header>
-      <h2>Features</h2>
-      <p>Key capabilities that delivers smoother and more enjoyable ride</p>
-    </header>
-    <div class="row">
-
-      <!-- Speed -->
-      <div class="col-3 col-6-medium col-12-small">
-        <article class="box style2">
-          <span class="icon solid fa-tachometer-alt"></span>
-          <h3>Top Speed</h3>
-          <p>Reaches speeds up to <strong>17 km/h</strong>, delivering smooth acceleration and control.</p>
-        </article>
-      </div>
-
-      <!-- Rechargeable -->
-      <div class="col-3 col-6-medium col-12-small">
-        <article class="box style2">
-          <span class="icon solid fa-battery-full"></span>
-          <h3>Rechargeable</h3>
-          <p>3D designed a charging hole to convinently charge the board without having to replacing the battery.</p>
-        </article>
-      </div>
-
-      <!-- Remote Control -->
-      <div class="col-3 col-6-medium col-12-small">
-        <article class="box style2">
-          <span class="icon solid fa-gamepad"></span>
-          <h3>Remote Control</h3>
-          <p>Control acceleration and braking with a wireless remote for a responsive ride.</p>
-        </article>
-      </div>
-
-      <!-- Battery Indicator -->
-      <div class="col-3 col-6-medium col-12-small">
-        <article class="box style2">
-          <span class="icon solid fa-lightbulb"></span>
-          <h3>Battery Indicator</h3>
-          <p>Real-time battery level display to keep track of your charge while riding.</p>
-        </article>
-      </div>
-
-    </div>
-  </div>
-</article>
-
-
-
-  <!-- Gallery -->
-<article class="wrapper style3" id="gallery">
-  <div class="container">
-    <header>
-      <h2>Gallery</h2>
-      <p>Key stages of the build</p>
+      <div class="detail-cover" data-reveal><img src="images/Front.jpg" alt="Completed electric longboard photographed at street level"></div>
     </header>
 
-    <div class="row">
-      <div class="col-4 col-12-small">
-        <span class="image featured"><img src="images/1.jpg" alt="Front angle" /></span>
+    <section class="shell" aria-label="Project summary" data-reveal>
+      <div class="project-meta-grid">
+        <div class="meta-cell"><span class="meta-label">Type</span><span class="meta-value">Personal engineering project</span></div>
+        <div class="meta-cell"><span class="meta-label">Role</span><span class="meta-value">Designer &amp; builder</span></div>
+        <div class="meta-cell"><span class="meta-label">Focus</span><span class="meta-value">Mechanical + electrical</span></div>
+        <div class="meta-cell"><span class="meta-label">Outcome</span><span class="meta-value">Working road-tested prototype</span></div>
       </div>
-      <div class="col-4 col-12-small">
-        <span class="image featured"><img src="images/2.jpg" alt="Placeholder" /></span>
-      </div>
-      <div class="col-4 col-12-small">
-        <span class="image featured"><img src="images/Front.jpg" alt="Placeholder" /></span>
-      </div>
+    </section>
 
-      <!-- Full-width video under the images -->
-      <div class="col-12">
-        <div class="video-wrap">
-          <video controls preload="metadata">
-  <source src="images/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+    <section class="section shell" aria-labelledby="overview-title">
+      <div class="story-grid" data-reveal>
+        <div><p class="section-kicker">01 — Overview</p><h2 id="overview-title">From components to a complete ride.</h2></div>
+        <div class="story-copy">
+          <p>I designed and assembled a DIY electric longboard around a 36 V battery, an electronic speed controller, and an 1800 W brushless motor. The enclosure was modelled to follow the deck’s curvature while holding the battery securely and keeping charging and battery-status controls accessible.</p>
+          <p>The build required balancing packaging, durability, belt alignment, wiring, and ride quality. After assembly, I tested and refined the board into a dependable cruiser with smooth acceleration, wireless control, and a top speed of approximately 17 km/h.</p>
         </div>
       </div>
-    </div>
-
-    <footer class="footer-with-thanks">
-  
-  <div class="special-thanks">
-    <p>Special thanks to <strong>Bohyun Kang</strong>, <strong>Andrew Cao</strong>, <strong>Fred Yang</strong>, <strong>Sam Zhu</strong></p>
-  </div>
-</footer>
-
-  </div>
-</article>
-
-
-<!-- other sections below... -->
-
+      <div class="spec-list" data-reveal>
+        <article class="spec"><h3>Drive system</h3><p>Single belt drive with a 5M gear profile and compatibility across 83, 90, and 97 mm wheels.</p></article>
+        <article class="spec"><h3>Power</h3><p>36 V lithium battery pack, integrated BMS and charger, ESC, and wireless remote control.</p></article>
+        <article class="spec"><h3>Enclosure</h3><p>Custom CAD geometry shaped to the curved deck, with raised locating walls and external access points.</p></article>
       </div>
-      <footer>
-        <a href="index.html#portfolio" class="button">← Back to Portfolio</a>
-      </footer>
-    </div>
-  </article>
+    </section>
 
-  <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.scrolly.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-  
+    <section class="section shell skills-section" aria-labelledby="skills-title">
+      <div data-reveal><p class="section-kicker">02 — Skills used</p><h2 id="skills-title">What the build demanded.</h2></div>
+      <div class="skills-grid" data-reveal>
+        <article class="skill-card"><span class="number">01</span><h3>CAD &amp; packaging</h3><p>Modelled a curved enclosure around the board, battery, and controls.</p></article>
+        <article class="skill-card"><span class="number">02</span><h3>Electrical integration</h3><p>Connected the battery, BMS, ESC, motor, charger, indicator, and remote system.</p></article>
+        <article class="skill-card"><span class="number">03</span><h3>Mechanical fabrication</h3><p>Mounted the drivetrain and adapted the wheel and motor hardware for a secure fit.</p></article>
+        <article class="skill-card"><span class="number">04</span><h3>Testing &amp; iteration</h3><p>Evaluated alignment, acceleration, control, and ride performance on the completed board.</p></article>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="gallery-title">
+      <div class="gallery-head" data-reveal><div><p class="section-kicker">03 — Gallery</p><h2 id="gallery-title">The build, up close.</h2></div><p>CAD development, drivetrain assembly, and the finished longboard.</p></div>
+      <div class="gallery" data-reveal>
+        <figure class="wide"><div class="gallery-media"><img src="images/1.jpg" alt="Electric longboard viewed from above"></div><figcaption>Completed board and deck layout</figcaption></figure>
+        <figure class="narrow"><div class="gallery-media"><img src="images/mount.jpg" alt="Electric motor and belt mounted to the longboard truck"></div><figcaption>Motor and belt-drive assembly</figcaption></figure>
+        <figure class="half"><div class="gallery-media"><img src="images/cad.png" alt="CAD model of the longboard electronics enclosure"></div><figcaption>Custom enclosure CAD</figcaption></figure>
+        <figure class="half"><div class="gallery-media"><img src="images/2.jpg" alt="Electric longboard enclosure and electronics detail"></div><figcaption>Enclosure and electronics integration</figcaption></figure>
+        <figure class="full"><div class="gallery-media"><video controls preload="metadata" playsinline><source src="images/video.mp4" type="video/mp4">Your browser does not support embedded video.</video></div><figcaption>Road test</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section shell"><a class="next-project" href="naura.html"><span>Next project</span><strong>Naura ↗</strong></a></section>
+    <section class="contact-section shell"><footer class="footer"><div class="footer-inner"><span>© <span data-year>2026</span> Simon Kang</span><div class="footer-links"><a href="index.html">All projects</a><a href="https://github.com/Nayasimon" target="_blank" rel="noreferrer">GitHub ↗</a><a href="mailto:s85kang@uwaterloo.ca">Email ↗</a></div></div></footer></section>
+  </main>
+  <script src="assets/js/portfolio.js"></script>
 </body>
 </html>
