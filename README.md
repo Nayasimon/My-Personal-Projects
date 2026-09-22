@@ -2,6 +2,8 @@
 
 A responsive personal portfolio featuring three engineering and product projects:
 
+**Live website:** [nayasimon.github.io/My-Personal-Projects](https://nayasimon.github.io/My-Personal-Projects/)
+
 - **Electric Longboard** — CAD, electrical integration, mechanical fabrication, and testing.
 - **Naura** — battery research, product strategy, brand design, and web development.
 - **Tennis Ball Launcher** — an in-progress mechanical prototype using dual motors and custom printed supports.
